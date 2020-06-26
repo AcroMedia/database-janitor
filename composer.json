@@ -12,8 +12,8 @@
   "minimum-stability": "dev",
   "require": {
     "acromedia/mysqldump-php": "dev-master",
-    "symfony/console": "^4.2@dev",
-    "symfony/yaml": "^4.2@dev"
+    "symfony/console": "^2.5|^3|^4",
+    "symfony/yaml": "^2.8.11|^3|^4"
   },
   "scripts": {
     "build": "vendor/bin/phar-builder package composer.json"
