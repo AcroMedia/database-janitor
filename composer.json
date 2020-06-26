@@ -1,5 +1,5 @@
 {
-  "name": "gsimmer/database-janitor",
+  "name": "acromedia/database-janitor",
   "description": "Database sanitizer, trimmer and scrubber.",
   "type": "library",
   "license": "MPL-2.0",
@@ -9,15 +9,9 @@
       "email": "gsimmer@acromedia.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/gmemstr/mysqldump-php"
-    }
-  ],
   "minimum-stability": "dev",
   "require": {
-    "ifsnop/mysqldump-php": "dev-master",
+    "acromedia/mysqldump-php": "dev-master",
     "symfony/console": "^4.2@dev",
     "symfony/yaml": "^4.2@dev"
   },
